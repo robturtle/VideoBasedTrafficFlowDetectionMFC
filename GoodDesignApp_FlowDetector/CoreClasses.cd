@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="c_flow_detector">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~c_flow_detector" Hidden="true" />
+      <Method Name="c_flow_detector" Hidden="true" />
+      <Method Name="get_rgb_intense" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+      <Field Name="index_max" Hidden="true" />
+      <Field Name="n_bytes_per_line" Hidden="true" />
+      <Field Name="n_current_intension" Hidden="true" />
+      <Field Name="n_mean_intension" Hidden="true" />
+      <Field Name="n_select_times" Hidden="true" />
+      <Method Name="operator++" Hidden="true" />
+      <Field Name="pt_set" Hidden="true" />
+      <Method Name="set_bytes_per_line" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAABICAAIAAAACQAAAAAAARAAAABAAEAAABAABAkA=</HashCode>
+      <FileName>DetectorStrainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="c_flow_counter">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQQEAAQAAEEsACAAAEAAAAAAAAJAAAAACAg=</HashCode>
+      <FileName>DetectorStrainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="c_detector_strainer">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~c_detector_strainer" Hidden="true" />
+      <Field Name="b_flush_finish" Hidden="true" />
+      <Field Name="b_updated" Hidden="true" />
+      <Field Name="b_valid" Hidden="true" />
+      <Method Name="c_detector_strainer" Hidden="true" />
+      <Method Name="get_cur_bottom_rect" Hidden="true" />
+      <Method Name="get_cur_top_rect" Hidden="true" />
+      <Method Name="get_lst_max" Hidden="true" />
+      <Method Name="get_que_max" Hidden="true" />
+      <Method Name="get_sum_bottom_rect" Hidden="true" />
+      <Method Name="get_sum_top_rect" Hidden="true" />
+      <Method Name="is_flush_finished" Hidden="true" />
+      <Method Name="is_valid" Hidden="true" />
+      <Field Name="lst_bottoms" Hidden="true" />
+      <Field Name="lst_tops" Hidden="true" />
+      <Field Name="n_bmp_height" Hidden="true" />
+      <Field Name="n_bmp_width" Hidden="true" />
+      <Field Name="n_bytes_per_line" Hidden="true" />
+      <Field Name="n_detector_set_index" Hidden="true" />
+      <Field Name="n_last_frame" Hidden="true" />
+      <Field Name="n_lst_max" Hidden="true" />
+      <Field Name="n_min_last" Hidden="true" />
+      <Field Name="n_que_max" Hidden="true" />
+      <Field Name="n_tolerant_change" Hidden="true" />
+      <Field Name="n_wnd_height" Hidden="true" />
+      <Field Name="n_wnd_width" Hidden="true" />
+      <Field Name="p_bmp_data" Hidden="true" />
+      <Field Name="rc_zone" Hidden="true" />
+      <Method Name="reset_list" Hidden="true" />
+      <Method Name="switching_flush_status" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ISiAABI2AKAAQIAAAOAEAiICIAAkFEAiQAABBAAAAAg=</HashCode>
+      <FileName>DetectorStrainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cavi">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~Cavi" Hidden="true" />
+      <Method Name="Cavi" Hidden="true" />
+      <Method Name="GetBytesPerLine" Hidden="true" />
+      <Method Name="GetCurrentFrame" Hidden="true" />
+      <Method Name="GetData" Hidden="true" />
+      <Method Name="GetElapse" Hidden="true" />
+      <Method Name="GetFrameLength" Hidden="true" />
+      <Method Name="GetHeight" Hidden="true" />
+      <Method Name="GetJumpStep" Hidden="true" />
+      <Method Name="GetWidth" Hidden="true" />
+      <Field Name="m_bHalt" Hidden="true" />
+      <Field Name="m_bOpenState" Hidden="true" />
+      <Field Name="m_nCurrentFrame" Hidden="true" />
+      <Field Name="m_nElapse" Hidden="true" />
+      <Field Name="m_nJumpStep" Hidden="true" />
+      <Field Name="m_pavifile" Hidden="true" />
+      <Field Name="m_pavifileinfo" Hidden="true" />
+      <Field Name="m_pavistream" Hidden="true" />
+      <Field Name="m_pgetframe" Hidden="true" />
+      <Method Name="OpenAviFile" Hidden="true" />
+      <Method Name="OpenNextFrame" Hidden="true" />
+      <Method Name="OpenPreFrame" Hidden="true" />
+      <Method Name="SetCurrentFrame" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAKCgBhgUAAAQgAFBAgCQABQAACAgCiAdAAICEAAEAE=</HashCode>
+      <FileName>avi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ccor_convert">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~Ccor_convert" Hidden="true" />
+      <Method Name="Ccor_convert" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAAAAAAAAAgAAAAAAQAgAAAAAAAgAA=</HashCode>
+      <FileName>coordinate_convert.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDView">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAABEAACBECIhAoADAgAoACEAAABgAAAA0AQA=</HashCode>
+      <FileName>GoodDesignApp_FlowDetectorView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
